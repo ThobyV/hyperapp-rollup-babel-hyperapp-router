@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "hyperapp-rollup-babel",
+  "description": "A simplistic boiler-plate for hyperapp applications - rollup, babel, hyperapp, hyperapp-router, rollup-sass",
+  "author": "Thoby V",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup": "^0.49.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-sass": "^0.8.0",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "dependencies": {
+    "@hyperapp/router": "^0.7.0",
+    "hyperapp": "^1.0.1"
+  }
+}
